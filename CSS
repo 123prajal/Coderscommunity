@@ -1,0 +1,268 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppins",sans-serif;
+}
+
+.header{
+position: fixed;
+top:0;
+left:0;
+width:100%;
+padding:20px 80px;
+background: slategray;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+}
+
+
+.logo{
+font-size:36px ;
+color:black;
+text-decoration: none;
+font-weight: 700;
+}
+
+.navbar a{
+font-size:20px ;
+color:black;
+font-weight: 500;
+text-decoration: none;
+margin-left: 40px;
+padding: 14px 16px;
+}
+
+.navbar a:hover{
+    background-color: aliceblue;
+    color:red;
+}
+
+.navbar a.active{
+    background-color: aliceblue;
+    color:red;
+}
+.blog {
+    display: flex;
+    align-items: center;
+    min-height: 60vh; 
+    width: 100%;
+    
+}
+
+.text{
+    padding: 0px 800px;
+}
+
+.blog content{
+    max-width: 100%;
+}
+
+.content h1{
+    font-size: small;
+
+}
+
+.content h3{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 500px;
+    font-size: 20px;
+}
+
+#html{
+    text-align: right;
+}
+
+.content h4{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 520px;
+    font-size: small;
+}
+
+
+.body {
+    display: flex;
+    align-items: center;
+    min-height: 30vh;
+    width: 100%;
+    
+}
+
+.body body-explain{
+    max-width: 1000px;
+}
+
+.body-explain h5{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 20px;
+    color: blueviolet;
+    width:fit-content;
+}
+
+.body-explain p{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+
+.body-explain h7{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 20px ;
+    color: blueviolet;
+    width:fit-content;
+
+}
+.body-explain p{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+.body-explain h9{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+
+.body-explain h10{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+
+.body-explain h11{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+
+.body-explain h12{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.body-explain h13{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+
+.body-explain h14{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+
+.body-explain h15{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+
+.body-explain h16{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 15px;
+    color: black;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    min-height: 30vh;
+    width: 100%;
+    
+}
+
+.comment C{
+    max-width: 500rem;
+}
+
+.C h17{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 300px;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.C h19{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 20px;
+    color: black;
+}
+
+.C h20{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 500px;
+    font-size: 20px;
+    color: black;
+}
+
+.C h21{
+    align-items: center;
+    justify-content:center ;
+    padding:0px 400px;
+    font-size: 20px;
+    color: black;
+}
+
+.foot{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 80px;
+    background: slategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    }
+    
+    
+.foot{
+
+background-color: aqua;
+padding: 10px;
+text-align: center;
+position: fixed;
+bottom: 400;
+width: 100%;
+}
+
+
